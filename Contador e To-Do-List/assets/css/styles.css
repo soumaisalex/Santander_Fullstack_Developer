@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: lightyellow;
+}
+
+.contador {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: rgb(241, 214, 214);
+    color: red;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+.to-do-list {
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: rgb(241, 214, 214);
+    color: red;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: red;
+}
