@@ -24,5 +24,6 @@
 ## Projetos / Desafios de Código
 
 - [Instagram Login](https://github.com/soumaisalex/Santander_Fullstack_Developer/tree/main/Instagram%20Login)
+- [Contador e Lista de Tarefas](https://github.com/soumaisalex/Santander_Fullstack_Developer/tree/main/Contador%20e%20To-Do-List)
 
 ## Previsão de Conclusão do Bootcamp: 08/08/2022
